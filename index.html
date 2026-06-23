@@ -1,59 +1,200 @@
-Replace these details in the portfolio code:
-
-**Name**
-
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sahana Bagi | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+header h1{
+font-size:3.5rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+color:#cbd5e1;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 25px;
+background:#38bdf8;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+border-radius:8px;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+color:#38bdf8;
+margin-bottom:20px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+margin-bottom:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+}
+
+.skill{
+background:#334155;
+padding:10px 16px;
+border-radius:20px;
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+footer{
+background:#020617;
+text-align:center;
+padding:25px;
+margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
 <h1>Sahana Bagi</h1>
-```
-
-**Tagline**
-
-```html
 <p>Computer Science Engineering Student | Developer | Tech Enthusiast</p>
-```
 
-**GitHub Button**
-
-```html
 <a class="btn" href="https://github.com/Sahanabagi29" target="_blank">
 GitHub Profile
 </a>
-```
+</header>
 
-**About Me**
-
-```html
+<section>
+<h2>About Me</h2>
+<div class="card">
 <p>
-I am a Computer Science Engineering student at REVA University with a passion for programming, web development, and technology. I enjoy building projects, learning new technologies, and solving real-world problems through software.
+I am a Computer Science Engineering student at REVA University with a passion for programming, web development and technology. I enjoy building projects, learning new technologies and solving real-world problems.
 </p>
-```
+</div>
+</section>
 
-**Email**
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">C Programming</div>
+<div class="skill">Python</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Git & GitHub</div>
+<div class="skill">Data Structures</div>
+<div class="skill">Pandas</div>
+</div>
+</section>
 
-```html
+<section>
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Student Portfolio Website</h3>
+<p>Personal portfolio website showcasing projects and skills.</p>
+</div>
+
+<div class="project">
+<h3>Mini Project</h3>
+<p>Academic project developed as part of engineering coursework.</p>
+</div>
+
+</section>
+
+<section>
+<h2>Education</h2>
+
+<div class="card">
+<h3>REVA University</h3>
+<p>Bachelor of Technology (B.Tech) - Computer Science Engineering</p>
+</div>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+
+<div class="card contact">
+
+<p>
+📧 Email:
 <a href="mailto:25020103776@reva.edu.in">
 25020103776@reva.edu.in
 </a>
-```
+</p>
 
-**GitHub**
+<br>
 
-```html
+<p>
+💻 GitHub:
 <a href="https://github.com/Sahanabagi29" target="_blank">
 github.com/Sahanabagi29
 </a>
-```
+</p>
 
-**LinkedIn**
+<br>
 
-```html
+<p>
+💼 LinkedIn:
 <a href="https://www.linkedin.com/in/sahana-bagi-79676938a" target="_blank">
 linkedin.com/in/sahana-bagi-79676938a
 </a>
-```
+</p>
 
-**Footer**
+</div>
+</section>
 
-```html
+<footer>
 <p>© 2026 Sahana Bagi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
 ```
